@@ -9,6 +9,8 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'jquery': 'vendor/jquery/dist/',
+  'semantic-ui-css': 'vendor/semantic-ui-css'
 };
 
 /** User packages configuration. */
@@ -36,6 +38,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/header',
+  'app/article-component',
+  'app/article',
   /** @cli-barrel */
 ];
 
