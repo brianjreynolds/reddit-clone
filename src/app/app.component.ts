@@ -3,7 +3,7 @@ import { HeaderComponent } from './header/header.component';
 import { ArticleComponent } from './article/article.component';
 import { AddArticleComponent } from './add-article/add-article.component';
 
-import { Article } from './shared/article';
+import { Article } from './shared';
 
 @Component({
   moduleId: module.id,

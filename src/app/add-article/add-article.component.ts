@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Article } from '../shared/article';
+import { Article } from '../shared';
 
 @Component({
   moduleId: module.id,
