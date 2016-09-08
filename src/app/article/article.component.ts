@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Article } from '../shared/article';
 
 @Component({
   moduleId: module.id,
@@ -7,11 +8,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['article.component.css'],
   inputs: ['article']
 })
-export class ArticleComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class ArticleComponent{
+    article: Article;
 }
