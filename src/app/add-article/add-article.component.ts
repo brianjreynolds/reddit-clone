@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Article } from '../shared';
 
 @Component({
-  moduleId: module.id,
   selector: 'my-add-article',
   templateUrl: 'add-article.component.html',
   styleUrls: ['add-article.component.css'],
