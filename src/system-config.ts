@@ -41,6 +41,7 @@ const barrels: string[] = [
   'app/header',
   'app/article-component',
   'app/article',
+  'app/add-article',
   /** @cli-barrel */
 ];
 

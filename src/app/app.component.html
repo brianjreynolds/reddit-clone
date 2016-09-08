@@ -1,4 +1,7 @@
 <my-header></my-header>
 <div class="ui main text container">
-    <my-article *ngFor="let article of articles" [article]="article"></my-article>
+    <my-add-article [onAddArticle]="onAddArticleCallback"></my-add-article>
+    <div class="ui grid posts">
+        <my-article *ngFor="let article of sortedArticles()" [article]="article"></my-article>
+    </div>
 </div>

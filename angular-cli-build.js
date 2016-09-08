@@ -17,7 +17,8 @@ module.exports = function(defaults) {
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)',
       'jquery/dist/jquery.js',
-      'semantic-ui-css/semantic.{js,css}'
+      'semantic-ui-css/semantic.{js,css}',
+      'semantic-ui-css/themes/**/*',
     ]
   });
 };

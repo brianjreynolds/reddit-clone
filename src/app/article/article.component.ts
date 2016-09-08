@@ -6,8 +6,21 @@ import { Article } from '../shared/article';
   selector: 'my-article',
   templateUrl: 'article.component.html',
   styleUrls: ['article.component.css'],
-  inputs: ['article']
+  inputs: ['article'],
+  host: {
+      class: 'row'
+  }
 })
 export class ArticleComponent{
     article: Article;
+
+    voteUp():boolean {
+        this.article.voteUp();
+        return false;
+    }
+
+    voteDown():boolean {
+        this.article.voteDown();
+        return false;
+    }
 }
